@@ -9,7 +9,9 @@ class ArticleController extends Controller{
 
     public function actionIndex()
     {
-        echo 'localhost';
+
+        echo 123;
+
         die;
         $model = Article::find();
 //        $model->count();
