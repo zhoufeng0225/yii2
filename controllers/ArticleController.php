@@ -9,6 +9,8 @@ class ArticleController extends Controller{
 
     public function actionIndex()
     {
+        echo 'localhost';
+        die;
         $model = Article::find();
 //        $model->count();
        $pagination = new \yii\data\Pagination(['totalCount'=>$model->count(),'pageSize'=>5]);
